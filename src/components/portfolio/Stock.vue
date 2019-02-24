@@ -11,7 +11,7 @@
         <v-card>
             <v-container fill-height>
                 <v-text-field label="Quantidade" type="number" v-model.number="quantity"/>
-                <v-btn class="green darken-3 white--text"
+                <v-btn class="blue darken-3 white--text"
                        :disabled="quantity <= 0 || !Number.isInteger(quantity)"
                        @click="sellStock">Vender</v-btn>
             </v-container>
